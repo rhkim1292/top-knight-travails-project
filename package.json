@@ -1,0 +1,28 @@
+{
+  "name": "top-knight-travails-project",
+  "version": "1.0.0",
+  "description": "A simple program that finds the minimal number of steps a chess knight needs to get to any given location on a 2D board.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhkim1292/top-knight-travails-project.git"
+  },
+  "keywords": [
+    "top",
+    "the",
+    "odin",
+    "project",
+    "knight",
+    "travails",
+    "project"
+  ],
+  "author": "Randy H Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhkim1292/top-knight-travails-project/issues"
+  },
+  "homepage": "https://github.com/rhkim1292/top-knight-travails-project#readme"
+}
