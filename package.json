@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple program that finds the minimal number of steps a chess knight needs to get to any given location on a 2D board.",
   "main": "script.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

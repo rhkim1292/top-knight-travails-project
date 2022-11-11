@@ -1,13 +1,13 @@
 class Node {
     constructor(loc = [0, 0]) {
         this.loc = loc;
-        this.u2l1 = null;
-        this.u2r1 = null;
-        this.u1r2 = null;
-        this.d1r2 = null;
-        this.d2l1 = null;
-        this.d1l2 = null;
-        this.u1l2 = null;
+        // The children array of a Node will contain 8 other nodes that
+        // represent the 8 different locations that is the result of each
+        // possible move the knight can take.
+        this.children = []
+        for (let i = 0; i < 8; i++) {
+            this.children.push(null);
+        }
     }
 }
 
