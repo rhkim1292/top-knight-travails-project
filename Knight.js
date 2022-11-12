@@ -33,6 +33,7 @@ class Knight {
         this.locNode.children[i] = null;
       } else {
         this.locNode.children[i] = new Node(nextLocArr);
+        this.locNode.children[i].prev = this.locNode;
       }
     }
   }
